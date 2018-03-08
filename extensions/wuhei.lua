@@ -70,9 +70,9 @@ danyu_jingcha = sgs.CreateTriggerSkill{
 	end
 }
 
-danyu1:addSkill(danyu_jingcha)
-danyu1:addSkill(danyu_shishui)
 
+danyu1:addSkill(danyu_shishui)
+danyu1:addSkill(danyu_jingcha)
 
 sgs.LoadTranslationTable{
 	["wuhei"] = "五黑",
